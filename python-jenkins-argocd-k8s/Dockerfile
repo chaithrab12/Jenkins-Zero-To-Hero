@@ -1,4 +1,4 @@
-FROM python:3.12.3
+FROM python:3.12
 
 RUN pip install setuptools==58.0.0
 RUN pip install django==3.2
