@@ -1,4 +1,6 @@
 FROM python:3.12.3
+
+RUN pip install setuptools==58.0.0
 RUN pip install django==3.2
 
 COPY . .
